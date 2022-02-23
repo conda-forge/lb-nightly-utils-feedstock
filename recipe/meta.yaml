@@ -1,5 +1,5 @@
 {% set name = "lb-nightly-utils" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lb-nightly-utils-{{ version }}.tar.gz
-  sha256: 286bc423cdd8e0cb59362cc3a3b60b602ff5c3e886d788e5c456d1d8f2284636
+  sha256: 218593db0e76dc75565e617189bbe9e2bae978d7694d24f273a3bcc704128bf7
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - poetry-core >=1.0.0
     - python >=3.6,<4.0
   run:
-    - lb-nightly-configuration >=0.1.4,<0.2.0
+    - lb-nightly-configuration >=0.2,<0.3
     - python >=3.6,<4.0
     - requests >=2.26.0,<3.0.0
 
