@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@maszyman](https://github.com/maszyman/)
+* [@pikacic](https://github.com/pikacic/)
 
